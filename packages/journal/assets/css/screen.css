@@ -3,7 +3,7 @@
 :root {
     --font-sans: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif; /* stylelint-disable-line value-keyword-case */
     --font-serif: Lora, Times, serif; /* stylelint-disable-line value-keyword-case */
-    --color-primary-text: var(--color-black);
+    --color-primary-text: #fff;
     --color-darker-gray: var(--color-black);
     --head-nav-gap: 3.2rem;
 }
@@ -363,7 +363,7 @@
     margin-top: 1.6rem;
     font-size: 2.8rem;
     line-height: 1.35;
-    color: var(--color-darker-gray);
+    color: var(--color-primary-text);
 }
 
 .gh-article-footer {
