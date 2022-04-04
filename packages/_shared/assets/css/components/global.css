@@ -7,7 +7,7 @@ body {
     font-size: 1.6rem;
     line-height: 1.6;
     color: var(--color-primary-text);
-    background-color: black;
+    background-color: var(--color-main-1);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -17,7 +17,7 @@ img {
 }
 
 a {
-    color: var(--color-darker-gray);
+    color: var(--color-primary-text);
     text-decoration: none;
 }
 
@@ -32,7 +32,7 @@ h4,
 h5,
 h6 {
     line-height: 1.15;
-    color: var(--color-darker-gray);
+    color: var(--color-main-2);
     letter-spacing: -0.02em;
 }
 
