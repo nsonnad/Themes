@@ -1,9 +1,9 @@
-{{!< default}}
+{{!< ../default}}
 
 <main id="gh-main" class="gh-main gh-outer">
     <div class="gh-inner">
         {{^is "paged"}}
-            {{#get "posts" filter="tags:-podcast" limit="1"}}
+            {{#get "posts" filter="tags:podcast" limit="20"}}
                 {{#foreach posts}}
                     <article class="gh-latest gh-card {{post_class}}">
                         <a class="gh-card-link" href="{{url}}">
