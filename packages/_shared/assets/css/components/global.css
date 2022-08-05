@@ -102,7 +102,7 @@ pre {
     hyphens: none;
     line-height: 1.5;
     white-space: pre;
-    background-color: var(--color-lighter-gray);
+    background-color: var(--color-dark-gray);
     -webkit-overflow-scrolling: touch;
 }
 
@@ -114,7 +114,7 @@ code {
 :not(pre) > code {
     padding: 0.4rem;
     color: var(--ghost-accent-color);
-    background-color: var(--color-lighter-gray);
+    background-color: var(--color-dark-gray);
     border-radius: 3px;
 }
 
