@@ -7,7 +7,11 @@ body {
     font-size: 1.6rem;
     line-height: 1.6;
     color: var(--color-primary-text);
-    background-color: var(--color-main-1);
+    /*background-color: var(--color-main-1);*/
+    background-image: url("../images/greenie.jpg");
+    background-position: center; /* Center the image */
+    /*background-repeat: no-repeat; [> Do not repeat the image <]*/
+    background-size: contain; /* Resize the background image to cover the entire container */
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
